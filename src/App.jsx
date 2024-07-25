@@ -4,14 +4,14 @@ import Footer from "./components/footer/Footer"
 import Header from "./components/header/Header"
 import { Outlet } from "react-router-dom"
 
-function App() {
+function App(setId) {
 
   return (
     <>
-      <div className="bg-cyan-100 h-screen w-screen">
-        <Header/>
-        <Outlet/>
-        <Footer/>
+      <div className="bg-cyan-100 min-h-screen">
+        <Header />
+        <Outlet />
+        <Footer />
       </div>
     </>
   )

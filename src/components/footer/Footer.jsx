@@ -23,7 +23,7 @@ export default function Footer() {
       <footer className="bg-white ">
           <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-6 ">
               <div className="md:flex justify-between">
-                  <div className="mb-6 md:mb-0">
+                  <div className="mb-6 ">
                       <Link to="/" className="flex">
                           <img
                               src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
